@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f2f2f2; */
+    background-color: rgb(35, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .login-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .login-button:hover {
+    transform: translateY(-5px);
+  }
+  
+  .user-login {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .admin-login {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  a {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+</style>
+
+</head>
+<body>
+  <div class="container">
+    <h1>Login Page</h1>
+    <div class="login-buttons">
+      <div class="login-button user-login">
+        <h2>User Login</h2>
+        <!-- <button>Login</button> -->
+         <a href="index.html">Login</a>
+      </div>
+      <div class="login-button admin-login">
+        <h2>Admin Login</h2>
+        <!-- <button>Login</button> -->
+         <a href="admin_login.html">Login</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(51, 45, 45);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        textarea,
+        button {
+            width: 95%;
+            padding: 10px;
+            border: 1.4px solid black;
+            border-radius: 5px;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: rgb(51, 45, 45);
+            outline: none;
+        }
+
+
+        button {
+            background-color: rgb(51, 45, 45);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: rgb(9, 9, 9);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Create Profile</h1>
+        <!-- action="/submit_resume" method="POST" -->
+        <form>
+            <div class="form-group">
+                <label>Upload Photo</label>
+                <input type="file" accept="image/*" required>
+            </div>
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Current Position</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>Bio</label>
+                <textarea rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Educational Background</label>
+                <textarea rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label>Training & Certifications</label>
+                <textarea rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label>Projects</label>
+                <textarea rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label>Technical Skills</label>
+                <textarea rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    background-color:#b9c0ce ;
+    
+}
+.fb{
+    background-color: #3F5C9A;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.face{
+    color: white;
+    position: absolute;
+    top: 2%;
+    right: 85%;
+    font-size: 1.4rem;
+}
+.table{
+    color: white;
+    position: absolute;
+    top: 25%;
+    right: 100px;
+}
+.table label{
+    color: white;
+}
+.table td a{
+    color: white;
+    text-decoration: none;
+}
+.table button{
+    background-color: #516aa1;
+    color: white;
+}
+.img{
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+.container h1{
+    margin-left: 60px;
+    
+}
+.container{
+    background-color: #b9c0ce;
+    height: 800px;
+    width: 100%;
+}
+.form{
+    position: absolute;
+    float: right;
+    top: 100px;
+    left: 800px;
+}
+.form h2{
+    margin-left: 3.8rem;
+}
+/* .form {
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+} */
+.underline {
+    border-top: 2px solid gray;
+    margin-top: 20px;
+}
+
